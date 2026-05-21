@@ -1,0 +1,46 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual / conda envs ──────────────────────────────────────────────────────
+.env
+.venv/
+env/
+venv/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Generated outputs (large, reproducible) ───────────────────────────────────
+dataset_output/
+classifier_output/*.pkl
+classifier_output/*.png
+dashboard_logs/
+
+# Keep these generated text/csv outputs for quick reference in the repo
+!classifier_output/classification_report.txt
+!classifier_output/top_features.csv
+!classifier_output/model_accuracy.csv
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
