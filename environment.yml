@@ -1,0 +1,15 @@
+name: harness_ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.26
+  - matplotlib>=3.8
+  - pip:
+      - scikit-learn>=1.4.0
+      - xgboost>=2.0.0
+      - shap>=0.45.0
+      - pandas>=2.2.0
+      - tqdm>=4.66.0

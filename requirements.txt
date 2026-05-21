@@ -1,0 +1,18 @@
+# harness_ai — Python 3.11 (conda)
+# Install via: conda run -n harness_ai pip install -r requirements.txt
+#              conda install -n harness_ai -c conda-forge xgboost shap
+
+# Core ML
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+shap>=0.45.0
+
+# Data
+numpy>=1.26.0
+pandas>=2.2.0          # optional, for exploratory analysis
+
+# Plotting
+matplotlib>=3.8.0
+
+# Utilities
+tqdm>=4.66.0           # optional progress bars
